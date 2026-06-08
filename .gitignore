@@ -39,3 +39,7 @@ coverage.xml
 # Secrets (never commit these)
 secrets.yaml
 configuration.yaml
+
+# Local cloned references
+python-yarbo-src/
+
