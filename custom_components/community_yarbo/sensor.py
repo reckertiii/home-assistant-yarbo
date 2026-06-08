@@ -599,7 +599,7 @@ class YarboRainSensor(YarboSensor):
         """Return rain sensor reading (0=dry, >0=wet)."""
         if not self.telemetry:
             return None
-        return getattr(self.telemetry, "rain_sensor", None)
+        return getattr(self.telemetry, "rain_sensor_data", None)
 
 
 class YarboSatelliteCountSensor(YarboSensor):
